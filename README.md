@@ -7,6 +7,7 @@ This repository contains some scripts to create a context menu item **Open Windo
 If you can't see the gif, you can always download the it to your local computer. It's large (27.3MB) and I suspect GitHub can properly display it. 
 
 ## How to use
+* Install Windows Terminal
 * Download [Open in Windows Terminal~.bat](https://github.com/yangshuairocks/Open_in_Windows_Terminal/raw/master/Open%20in%20Windows%20Terminal%7E.bat)
 * Double click `Open in Windows Terminal~.bat` and it will extract 2 files: `install.ps1`, `wt.reg`. You can also download these two extracted files directly from this repository.
 * Double click `wt.reg`, click *Yes* and *OK*.
