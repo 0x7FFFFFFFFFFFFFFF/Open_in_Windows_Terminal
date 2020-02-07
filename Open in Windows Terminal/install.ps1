@@ -78,7 +78,7 @@ if ((Get-Item $PROFILE -ea 0) -isnot [IO.FileInfo])
 else
 {
     # If old corresponding block of code exists
-    if ((Get-Content $PROFILE -Raw) -match '(?sm).*?^#===Open in Windows Terminal start===#\r?$.*')
+    if ((Get-Content $PROFILE -Raw).IndexOf("#===Open in Windows Terminal start===#") -ge 0)
     {
         $tmp_content = (Get-Content $PROFILE -Raw) -replace '(?sm)^#===Open in Windows Terminal start===#\r?$.*^#===Open in Windows Terminal end===#\r?$', $profile_lines
         $tmp_content | Out-File $PROFILE -Force
