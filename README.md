@@ -4,7 +4,6 @@
 This repository contains some scripts to create a context menu item **Open Windows Terminal**. You can right click on any file, folder and the empty area of a folder to get this menu. See below demo.gif for the effects of the script.
 <img src="https://github.com/yangshuairocks/Open_in_Windows_Terminal/raw/master/demo.gif">
 
-If you can't see the gif, you can always download the it to your local computer. It's large (27.3MB) and I suspect GitHub can properly display it. 
 
 ## How to use
 * Install Windows Terminal
