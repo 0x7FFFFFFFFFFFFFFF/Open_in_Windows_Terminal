@@ -9,9 +9,11 @@ This repository contains some scripts to create a context menu item **Open Windo
 * Install Windows Terminal
 * Run a PowerShell session as administrator and execute the command `Set-ExecutionPolicy RemoteSigned -Force` 
 * Download [install.ps1](https://github.com/yangshuairocks/Open_in_Windows_Terminal/blob/master/Open%20in%20Windows%20Terminal/install.ps1)
-* Right click `install.ps1`, choose `Run with PowerShell`. This will generate `wt.reg`.
-* Double click `wt.reg`, click *Yes* and *OK*.
+* Right click `install.ps1`, choose `Run with PowerShell`. This will generate `wt.reg` and `wt_nonadmin.reg`.
+* Double click `wt.reg`, click *Yes* and *OK*. This will add an entry *Open Windows Terminal* to your context menu.
+* Optionally, double click `wt_nonadmin.reg`, click *Yes* and *OK*. This will add an entry *Open Windows Terminal(Non-Admin)* to your context menu.
 
+Note that it is suggested to close UAC, otherwise you will see this every time you click context menu item *Open Windows Terminal*.
 
 Now you can try to right click on something to see if it works.
 
