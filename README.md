@@ -13,9 +13,10 @@ This repository contains some scripts to create a context menu item **Open Windo
 * Double click `wt.reg`, click *Yes* and *OK*. This will add an entry *Open Windows Terminal* to your context menu.
 * Optionally, double click `wt_nonadmin.reg`, click *Yes* and *OK*. This will add an entry *Open Windows Terminal(Non-Admin)* to your context menu.
 
-Note that it is suggested to close UAC, otherwise you will see this every time you click context menu item *Open Windows Terminal*.
-
 Now you can try to right click on something to see if it works.
+
+Note that it is suggested to close UAC, otherwise you will see this every time you click context menu item *Open Windows Terminal*.
+<img src="https://github.com/yangshuairocks/Open_in_Windows_Terminal/raw/e057a9730f20ba90dfa3faded6e6dcf0991ee2cb/UAC.png>
 
 
 ## How does it work?
